@@ -391,8 +391,157 @@ transform:translateY(0px);
     100%{
         box-shadow:0 0 25px rgba(79,124,255,.4);
     }
+    
+} 
+    /* ===========================
+        SERVICES
+=========================== */
+
+.services{
+
+    width:90%;
+    max-width:1200px;
+
+    margin:120px auto;
+
+    text-align:center;
 
 }
+
+.section-tag{
+
+    color:#8B5CF6;
+
+    letter-spacing:3px;
+
+    text-transform:uppercase;
+
+    font-size:14px;
+
+    margin-bottom:18px;
+
+    font-weight:600;
+
+}
+
+.services h2{
+
+    font-size:46px;
+
+    margin-bottom:20px;
+
+    color:white;
+
+}
+
+.section-description{
+
+    max-width:720px;
+
+    margin:0 auto 70px;
+
+    color:#B8B8C7;
+
+    line-height:1.8;
+
+    font-size:18px;
+
+}
+
+/* ===========================
+        GRID
+=========================== */
+
+.services-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:28px;
+
+}
+
+/* ===========================
+        CARD
+=========================== */
+
+.service-card{
+
+    background:rgba(255,255,255,.03);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:24px;
+
+    padding:38px 30px;
+
+    transition:.35s;
+
+    backdrop-filter:blur(15px);
+
+    cursor:pointer;
+
+}
+
+.service-card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:#4F7CFF;
+
+    box-shadow:
+    0 0 35px rgba(79,124,255,.25);
+
+}
+
+/* ===========================
+        ICON
+=========================== */
+
+.service-icon{
+
+    width:70px;
+
+    height:70px;
+
+    margin:auto auto 25px;
+
+    border-radius:18px;
+
+    background:linear-gradient(135deg,#4F7CFF,#7B3FF2);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:32px;
+
+    box-shadow:
+    0 0 25px rgba(79,124,255,.35);
+
+}
+
+.service-card h3{
+
+    margin-bottom:15px;
+
+    font-size:24px;
+
+}
+
+.service-card p{
+
+    color:#B8B8C7;
+
+    line-height:1.7;
+
+    font-size:16px;
+
+}
+
 /* ===========================
         CONNECTION LINES
 =========================== */
@@ -433,4 +582,593 @@ transform:translateY(0px);
     right:105px;
     top:50%;
     transform:translateY(-50%);
+}
+/* ===========================
+      HOW IT WORKS
+=========================== */
+
+.how-it-works{
+
+    width:90%;
+    max-width:1200px;
+
+    margin:140px auto;
+
+    text-align:center;
+
+}
+
+.how-it-works h2{
+
+    font-size:48px;
+
+    margin:15px 0 20px;
+
+}
+
+.how-it-works .section-description{
+
+    max-width:700px;
+
+    margin:auto;
+
+    color:#B8B8C7;
+
+    line-height:1.8;
+
+    margin-bottom:70px;
+
+}
+
+.steps{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:30px;
+
+    align-items:center;
+
+}
+
+.step-card{
+
+    position:relative;
+
+    background:rgba(255,255,255,.03);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:25px;
+
+    padding:40px 25px;
+
+    transition:.35s;
+
+    backdrop-filter:blur(15px);
+
+    box-shadow:0 0 30px rgba(79,124,255,.08);
+
+}
+
+.step-card:hover{
+
+    transform:translateY(-12px);
+
+    border-color:#4F7CFF;
+
+    box-shadow:0 0 40px rgba(79,124,255,.25);
+
+}
+
+.step-number{
+
+    position:absolute;
+
+    top:18px;
+
+    right:22px;
+
+    font-size:18px;
+
+    color:#4F7CFF;
+
+    font-weight:700;
+
+}
+
+.step-icon{
+
+    font-size:52px;
+
+    margin-bottom:20px;
+
+}
+
+.step-card h3{
+
+    margin-bottom:15px;
+
+    font-size:24px;
+
+}
+
+.step-card p{
+
+    color:#B8B8C7;
+
+    line-height:1.8;
+
+    font-size:16px;
+
+}
+
+/* ===========================
+      WHY CHOOSE FLOWAI
+=========================== */
+
+.why-flowai{
+
+    width:90%;
+    max-width:1200px;
+
+    margin:140px auto;
+
+    text-align:center;
+
+}
+
+.why-flowai h2{
+
+    font-size:48px;
+
+    margin:15px 0 20px;
+
+}
+
+.why-flowai .section-description{
+
+    max-width:700px;
+
+    margin:auto;
+
+    color:#B8B8C7;
+
+    line-height:1.8;
+
+    margin-bottom:70px;
+
+}
+
+.why-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:30px;
+
+}
+
+.why-card{
+
+    background:rgba(255,255,255,.03);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:25px;
+
+    padding:45px 30px;
+
+    transition:.35s;
+
+    backdrop-filter:blur(15px);
+
+    box-shadow:0 0 25px rgba(79,124,255,.08);
+
+}
+
+.why-card:hover{
+
+    transform:translateY(-12px);
+
+    border-color:#4F7CFF;
+
+    box-shadow:0 0 45px rgba(79,124,255,.25);
+
+}
+
+.why-icon{
+
+    font-size:56px;
+
+    margin-bottom:20px;
+
+}
+
+.why-card h3{
+
+    font-size:24px;
+
+    margin-bottom:18px;
+
+}
+
+.why-card p{
+
+    color:#B8B8C7;
+
+    line-height:1.8;
+
+}
+/* ===========================
+        IMPACT
+=========================== */
+
+.impact{
+
+    width:90%;
+    max-width:1200px;
+
+    margin:140px auto;
+
+    text-align:center;
+
+}
+
+.impact h2{
+
+    font-size:48px;
+
+    margin:15px 0 20px;
+
+}
+
+.impact-grid{
+
+    margin-top:70px;
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:30px;
+
+}
+
+.impact-card{
+
+    padding:45px;
+
+    border-radius:25px;
+
+    background:rgba(255,255,255,.03);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    backdrop-filter:blur(15px);
+
+    transition:.35s;
+
+}
+
+.impact-card:hover{
+
+    transform:translateY(-12px);
+
+    border-color:#4F7CFF;
+
+    box-shadow:0 0 40px rgba(79,124,255,.25);
+
+}
+
+.impact-card h3{
+
+    font-size:58px;
+
+    color:#4F7CFF;
+
+    margin-bottom:15px;
+
+}
+
+.impact-card span{
+
+    color:#B8B8C7;
+
+    font-size:18px;
+
+}
+/* ===========================
+        SECTION SPACING
+=========================== */
+
+section{
+
+    position:relative;
+
+    padding:40px 0;
+
+}
+
+section::after{
+
+    content:"";
+
+    position:absolute;
+
+    bottom:-30px;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    width:120px;
+
+    height:2px;
+
+    background:linear-gradient(
+        to right,
+        transparent,
+        #4F7CFF,
+        transparent
+    );
+
+    opacity:.35;
+
+}
+/* ===========================
+      LIVE WORKFLOW
+=========================== */
+
+.workflow{
+
+    width:90%;
+    max-width:1200px;
+
+    margin:150px auto;
+
+    text-align:center;
+
+}
+
+.workflow h2{
+
+    font-size:48px;
+
+    margin:15px 0 20px;
+
+}
+
+.workflow-container{
+
+    margin-top:80px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    position:relative;
+
+    min-height:650px;
+
+}
+
+.workflow-center{
+
+    position:relative;
+
+}
+.network-svg{
+
+    position:absolute;
+
+    left:-330px;
+    top:-220px;
+
+    width:800px;
+    height:600px;
+
+    overflow:visible;
+
+    pointer-events:none;
+
+    z-index:1;
+
+}
+
+.network-svg line{
+
+    stroke:#4F7CFF;
+
+    stroke-width:3;
+
+    opacity:.55;
+
+}
+
+.workflow-ai{
+
+    position:relative;
+    z-index:5;
+
+    width:140px;
+    height:140px;
+
+    border-radius:50%;
+
+    background:linear-gradient(135deg,#4F7CFF,#7B3FF2);
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    color:white;
+
+    font-size:42px;
+    font-weight:700;
+
+    box-shadow:0 0 45px rgba(79,124,255,.5);
+
+    animation:pulse 2.5s infinite;
+
+}
+/* ===========================
+      WORKFLOW NODE
+=========================== */
+
+.workflow-node{
+
+    position:absolute;
+
+    padding:14px 22px;
+
+    background:#111827;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:16px;
+
+    color:white;
+
+    font-weight:600;
+
+    transition:.35s;
+
+    box-shadow:0 0 20px rgba(79,124,255,.15);
+
+    cursor:pointer;
+
+}
+
+.workflow-node:hover{
+
+    transform:scale(1.08);
+
+    border-color:#4F7CFF;
+
+    box-shadow:0 0 35px rgba(79,124,255,.4);
+
+}
+
+/* POSISI NODE */
+
+.whatsapp-node{
+
+    top:-180px;
+    left:50%;
+    transform:translateX(-50%);
+
+}
+
+.instagram-node{
+
+    left:-260px;
+    top:20px;
+
+}
+
+.website-node{
+
+    right:-260px;
+    top:20px;
+
+}
+
+.gmail-node{
+
+    left:-210px;
+    bottom:-160px;
+
+}
+
+.sheets-node{
+
+    bottom:-200px;
+    left:50%;
+    transform:translateX(-50%);
+
+}
+
+.crm-node{
+
+    right:-210px;
+    bottom:-160px;
+
+}
+/* ===========================
+      WORKFLOW LINES
+=========================== */
+
+.workflow-lines div{
+
+    position:absolute;
+
+    height:2px;
+
+    background:linear-gradient(90deg,#4F7CFF,#7B3FF2);
+
+    opacity:.45;
+
+    transform-origin:left center;
+
+}
+
+/* kiri atas */
+
+.line-top{
+
+    width:120px;
+
+    transform:rotate(-55deg);
+
+    top:-70px;
+
+    left:-40px;
+
+}
+
+/* kanan atas */
+
+.line-right{
+
+    width:120px;
+
+    transform:rotate(55deg);
+
+    top:-70px;
+
+    right:-40px;
+
+}
+
+/* kiri bawah */
+
+.line-left{
+
+    width:120px;
+
+    transform:rotate(55deg);
+
+    bottom:-70px;
+
+    left:-40px;
+
+}
+
+/* kanan bawah */
+
+.line-bottom{
+
+    width:120px;
+
+    transform:rotate(-55deg);
+
+    bottom:-70px;
+
+    right:-40px;
+
 }
